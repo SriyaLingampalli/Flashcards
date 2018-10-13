@@ -18,13 +18,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    @IBAction func tapped(_ sender: Any) {
-        if frontLabel.isHidden == true {
-            frontLabel.isHidden = false
-        }
-            // Returns the question back to the front
-        else if frontLabel.isHidden == false {
-            frontLabel.isHidden = true
+    @IBAction func didTapOnFlashcard(_ sender: Any) {
+    if frontLabel.isHidden == false {
+        frontLabel.isHidden = true
         }
     }
     
