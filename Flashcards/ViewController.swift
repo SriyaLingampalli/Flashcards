@@ -22,6 +22,7 @@ class ViewController: UIViewController {
         if frontLabel.isHidden == true {
             frontLabel.isHidden = false
         }
+            // Returns the question back to the front
         else if frontLabel.isHidden == false {
             frontLabel.isHidden = true
         }
