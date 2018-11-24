@@ -98,7 +98,7 @@ class ViewController: UIViewController {
     
     func saveAllFlashcardsToDisk() {
         let dictionaryArray = flashcards.map {(card) -> [String: String] in return ["question": card.question, "answer": card.answer]
-        UserDefaults.standard.set(dictionaryArray, forKey: "flashcards")
+      //  UserDefaults.standard.set(dictionaryArray, forKey: "flashcards")
         print("Flashcards saved to UserDefaults")
         }
     }
